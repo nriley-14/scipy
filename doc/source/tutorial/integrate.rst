@@ -45,7 +45,7 @@ function, method, or class instance). Notice the use of a lambda-
 function in this case as the argument. The next two arguments are the
 limits of integration. The return value is a tuple, with the first
 element holding the estimated value of the integral and the second
-element holding an estimate of the absolute integration error. 
+element holding an estimate of the absolute integration error.
 Notice, that in this case, the true value of this integral is
 
 .. math::
@@ -196,7 +196,7 @@ As example for non-constant limits consider the integral
 
 .. math::
 
-    I=\int_{y=0}^{1/2}\int_{x=0}^{1-2y} x y \, dx\, dy=\frac{1}{96}.
+    I=\int_{t=0}^{1/2}\int_{u=0}^{1-2t} u t \, du\, dt=\frac{1}{96}.
 
 
 This integral can be evaluated using the expression below (Note the use of the
@@ -240,7 +240,7 @@ example from above
 
 .. math::
 
-    I=\int_{y=0}^{1/2}\int_{x=0}^{1-2y} x y \, dx\, dy=\frac{1}{96}.
+    I=\int_{t=0}^{1/2}\int_{u=0}^{1-2t} u t \, du\, dt=\frac{1}{96}.
 
 can be evaluated by means of
 
